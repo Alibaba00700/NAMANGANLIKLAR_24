@@ -1,0 +1,371 @@
+
+
+
+.main {
+    margin-bottom: 100px;
+}    
+
+/* 1st part */
+
+.news {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 100px;
+}    
+
+.news-page {
+    border-bottom: 1px solid #D2D2D2;
+}    
+
+.news-page .news-top {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}    
+
+.news-page .news-top .top-s {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5F61;
+}    
+
+.news-page .news-title {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}    
+
+.news-bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-bottom: 50px;
+}    
+
+.news-bottom .bottom-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}    
+
+
+.news-right .right-inner {
+    padding: 20px 17px;
+    background: #F6F6F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}    
+
+
+.news-right .right-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 5px;
+}    
+
+.all-inner+.all-inner {
+    border-top: 1px solid #D2D2D2;
+}    
+
+.all-inner {
+    display: flex;
+    flex-direction: column;
+}    
+
+.all-link {
+    flex-basis: 100px;
+    padding: 20px 0;
+}    
+
+.all-card .all-inner .all-link-title {
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+}    
+
+.all-card .all-inner .all-span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+}    
+
+.lik-p {
+    padding: 20px 0 0 0;
+}    
+
+/* 2nd part */
+
+.interest {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}    
+
+.interest-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}    
+
+.wrapper-card {
+    background: #F6F6F6;
+    border-radius: 15px;
+    padding: 20px 17px;
+    flex: 1;
+}    
+
+.interest-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 10px;
+    width: 328px;
+}    
+
+.interest-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}    
+
+.interest-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 10px;
+}    
+
+.interest-s {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}    
+
+
+
+
+/*               -------------------------------  */
+
+/* 1st part */
+
+
+/* ----------------------------------------------- inter */
+
+/* 1st part */
+
+.hero {
+    margin-bottom: 50px;
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+/* 2nd part */
+
+.mir .mir-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.mir .mir-wrapper {
+    display: flex;
+    column-gap: 10px;
+}
+
+.mir-wrapper .mir-inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.mir .mir-wrapper .mir-card {
+    padding: 20px 15px 20px 15px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+
+.mir .mir-wrapper .mir-card .mir-link {
+    display: flex;
+
+}
+
+.mir .mir-wrapper .mir-card .mir-link .mir-content {
+    margin-left: 15px;
+}
+
+.mir .mir-wrapper .mir-card .mir-link .mir-content .link-title {
+    margin-bottom: 10px;
+}
+
+.mir .mir-wrapper .mir-card .mir-link .link-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 17px;
+}
+
+/* aside part */
+
+.all-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.all-wrapper .all-card {
+    padding: 20px 17px 25px 17px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+
+.all-wrapper .all-card .all-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.all-inner+.all-inner {
+    border-top: 1px solid #D2D2D2;
+    margin-top: 20px;
+}
+
+.all-wrapper .all-card .all-link .all-link-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.all-wrapper .all-card .all-link .all-span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+}
+
+.mir .link-btn {
+    background: #EAEAEA;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 17px 337px;
+    border: none;
+    margin-top: 17px;
+}
+
+.title1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.text1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+.s-text1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}
+
+
+
+/*  login */
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./fonts/Rubik-Bold.woff2') format('woff2'),
+        url('./fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./fonts/Rubik-Medium.woff2') format('woff2'),
+        url('./fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./fonts/Rubik-Regular.woff2') format('woff2'),
+        url('./fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 1217px;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+p,
+a,
+ul,
+li,
+h2,
+h3,
+h4,
+h5,
+h1,
+button {
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+
+
+.main {
+    margin-bottom: 100px;
+}
+

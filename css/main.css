@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 1230px;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+p,
+a,
+ul,
+li,
+h2,
+h3,
+h4,
+h5,
+h1,
+button {
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+.hero {
+    margin-bottom: 50px;
+}
+
+/* 2nd part */
+
+.hero-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 60px;
+}
+
+.hero-wrapper .hero-card {
+    background: #F6F6F6;
+    border-radius: 15px;
+    padding: 20px 15px;
+}
+
+.hero-wrapper .hero-card .hero-link {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    flex: 1;
+}
+
+.hero-wrapper .hero-card .hero-link .hero-title {
+    width: 345px;
+}
+
+.hero-wrapper .hero-card .hero-link .hero-text {
+    width: 355px;
+}
+
+.hero-wrapper .hero-card .hero-link .hero-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+/* 3rd part */
+
+.service {
+    background-image: url(../img/bgcolor.png);
+    width: 1050px;
+    background-repeat: no-repeat;
+    padding: 24px 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+
+.service .service-title {
+    width: 404px;
+}
+
+.service .service-btn {
+    background: #F78B3B;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 13px 30px;
+    border: none;
+    margin-right: 40px;
+}
+
+
+.main {
+    margin-bottom: 100px;
+}
+
+/* В мире part */
+
+.mir .mir-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.mir-coall-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.mir .mir-wrapper {
+    display: flex;
+    column-gap: 10px;
+}
+
+.mir-wrapper .mir-inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.mir .mir-wrapper .mir-card {
+    padding: 20px 15px 20px 15px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+
+.mir .mir-wrapper .mir-card .mir-link {
+    display: flex;
+
+}
+
+.mir .mir-wrapper .mir-card .mir-link .mir-content {
+    margin-left: 15px;
+}
+
+.mir .mir-wrapper .mir-card .mir-link .mir-content .link-title {
+    margin-bottom: 10px;
+}
+
+.mir .mir-wrapper .mir-card .mir-link .link-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 17px;
+}
+
+/* aside part */
+
+
+.all-wrapper .all-inner {
+    padding: 20px 17px;
+    background: #F6F6F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+.all-wrapper .all-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.all-content+.all-content {
+    border-top: 1px solid #D2D2D2;
+}
+
+.all-inner .all-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-content .all-link {
+    flex-basis: 100px;
+    padding: 20px 0;
+}
+
+.all-inner .all-content .all-link-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.all-inner .all-content .all-span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+}
+
+.all-inner .all-content .lik-p {
+    padding: 20px 0 0 0;
+}
+
+.mir .link-btn {
+    background: #EAEAEA;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 17px 343px;
+    border: none;
+    margin-top: 17px;
+}
+
+/* Login ...... */
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.letter .letter-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.letter-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 60%;
+}
+
+.letter-left .letter-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.letter-left .letter-form .letter-inner {
+    display: flex;
+}
+
+.letter-left .letter-form .letter-inner .inner-i {
+    margin-right: 10px;
+}
+
+.letter-left .letter-form .letter-inner input {
+    flex-grow: 1;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+
+textarea {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 18px 20px;
+    resize: none;
+}
+
+.letter-left .letter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 17px 30px;
+    align-self: flex-end;
+    background: #7297EF;
+    border-radius: 10px;
+    border: none;
+}
+
+.letter-right {
+    align-self: auto;
+    padding: 40px 25px;
+    background: #F6F6F6;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: -25px;
+}
+
+.l-card+.l-card {
+    border-top: 1px solid #D2D2D2;  
+    padding-top: 20px;
+}
+
+.letter-right .l-card .l-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.letter-right .l-card .l-card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.first-child {
+    margin-bottom: 20px;
+}
+
+/* Илон Маск принял part */
+
+.news {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 100px;
+}    
+
+.news-page {
+    border-bottom: 1px solid #D2D2D2;
+}    
+
+.news-page .news-top {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}    
+
+.news-page .news-top .top-s {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5F61;
+}    
+
+.news-page .news-title {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}    
+
+.news-bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-bottom: 50px;
+}    
+
+.news-bottom .bottom-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}    
+
+/* По вашим интересам part */
+
+.interest {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}    
+
+.interest-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}    
+
+.wrapper-card {
+    background: #F6F6F6;
+    border-radius: 15px;
+    padding: 20px 17px;
+    flex: 1;
+}    
+
+.interest-title {
+    margin-bottom: 10px;
+    width: 328px;
+}    
+
+.interest-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 10px;
+}    
+
+
+/* other part */
+
+.title1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.text1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+.s-text1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}
